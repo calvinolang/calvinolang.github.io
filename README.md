@@ -1,26 +1,19 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
+# [Calvino](http://calvinolang.github.io) 
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
+Calvino è un linguaggio di programmazione pensato per chi vuole iniziare a programmare. Le caratteristiche principali di Calvino sono:
+* Programmazione conversazionale:  Calvino è un colloquio tra te e il computer. Ad ogni tua affermazione, espressa nel linguaggio Calvino, il computer risponderà immediatamente. Questo modo di programmare è detto conversazionale.
+* Computer Grafica: attraverso l'uso di Calvino potrai imparare i fondamenti della grafica computerizzata a due e tre dimensioni. 
+* Geometria della tartaruga: Calvino utilizza una metafora, detta geometria della tartaruga. In pratica, con alcuni comandi di Calvino, sposterai sullo schermo una tartaruga, dotata di una penna. In questa maniera potrai creare grafici di varia natura.
+* Matematica: Calvino ti offre un gran numero di funzioni matematiche.
+* Simulazione scientifica: con Calvino potrai simulare vari fenomeni naturali. 
 
-## Getting Started
+## Installare Calvino
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+Prima di installare Calvino dovrai verificare che Java sia presente sul tuo computer. Per farlo apri una finestra di comando e digita:
+java -version
+Se ricevi in risposta un messaggio del tipo:
+java version "1.7.0_65"
+allora Java è correttamente installato. Se invece ricevi un messaggio d'errore devi installare Java. Per farlo naviga col tuo browser alla pagina internet http://www.java.com/it/ e segui le istruzioni.
+Una volta verificata la presenza di Java puoi installare Calvino. Per farlo naviga alla pagina: http://calvinolang.github.io/, clicca sul link scarica e poi sul bottone “Scarica Calvino”. In pochi secondi sul tuo hard disk verrà scaricato un file di nome calvino.zip. Estrailo in una qualche cartella e poi esegui il file calvino.bat (se usi Windows) o calvino.sh (se usi Linux o Mac OS X). 
 
-## Bugs and Issues
-
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
-
-## Creator
-
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Copyright 2015 Tommaso Anzidei con licenza GPL.
