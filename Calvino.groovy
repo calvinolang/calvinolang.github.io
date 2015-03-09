@@ -106,6 +106,7 @@ public class Calvino
 
 
     public static version = "1.0"
+    public static released = "20150221"
 
     public static void main(String[] args)
     {
@@ -857,17 +858,17 @@ class Calvinosh extends Shell {
                         width = 80
                     }
 
-                    io.out.println("@|bold Calvino ${Calvino.version}|@ (JVM "+System.properties['java.version']+")")
+                    io.out.println("@|bold Calvino ${Calvino.version}|@ (JVM "+System.properties['java.version']+" r."+Calvino.released+")")
                     io.out.println("Running on " + System.properties['os.name'] + " " + System.properties['os.version'] + " (" + System.properties['os.arch'] + ")")
                     //io.out.println(messages['startup_banner.1'])
                     io.out.println('-' * (width - 1))
-                    try{
-                        def q = (new Quote()).randomQuote()
-                        io.out.println(Quote.addLinebreaks(q,width - 1))
-                    }
-                    catch(Exception e)
-                    {}
-                    io.out.println("")
+                    //try{
+                    //    def q = (new Quote()).randomQuote()
+                    //    io.out.println(Quote.addLinebreaks(q,width - 1))
+                    //}
+                    //catch(Exception e)
+                    //{}
+                    //io.out.println("")
                 }
 
                 // And let 'er rip... :-)
